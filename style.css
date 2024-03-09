@@ -1,0 +1,148 @@
+/* Login */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container{
+    width: 55%;
+    height: 90vh;
+    background: linear-gradient(to left top, red, blue);
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
+}
+.container h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: yellow;
+    letter-spacing: 10px;
+}
+.container input{
+    width: 600px;
+    height: 80px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 2px solid red;
+    margin: 20px auto;
+}
+.container input:focus{
+    outline: 5px dashed yellow;
+    border: 5px solid red;
+}
+
+button{
+    cursor: pointer;
+    width: 350px;
+    height: 60px;
+    border: 7px solid transparent;
+    border-top-color: green;
+    border-radius: 30px;
+    border-left-color: yellow;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    margin: 10px auto;
+    background:linear-gradient(to right, yellow, red);
+    border-right-color: rgb(255, 0, 0);
+    border-bottom-color: rgb(255, 157, 0);
+}
+.container p{
+    margin-left: 68px;
+    color: red;
+    word-spacing: 10px;
+    font-size: 17px;
+}
+a{
+    margin: 20px auto;
+}
+span{
+    color: white;
+    margin: auto;
+}
+ a{
+    color: yellow;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+
+/* Login */
+
+
+
+/* Sign up */
+.container2{
+    width: 55%;
+    height: 90vh;
+    background: linear-gradient(to left top, red, blue);
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
+}
+.container2 h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: white;
+    letter-spacing: 10px;
+}
+.container2 input{
+    width: 600px;
+    height: 80px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 2px solid red;
+    margin: 20px auto;
+}
+.container2 input:focus{
+    outline: 5px dashed red;
+    border: 5px solid aqua;
+}
+/* Sign up */
+
+/* main */
+
+.body{
+    background-image: url('https://blog.way.com/wp-content/uploads/2022/11/Black-car-names.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container3{
+    width: 100%;
+    height: 90vh;
+}
+.container3 .h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: white;
+    letter-spacing: 10px;
+}
+.container3 .h1h1{
+    position: relative;
+    left: 650px;
+    top: -40px;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 10px;
+}
+.container3 h1{
+    color: white;
+    margin-left: 550px;
+    width: 300px;
+    margin-top: -50px;
+}
+.container3 p{
+    color: white;
+    margin-left: 550px;
+    width: 500px;
+}
+/* main */
